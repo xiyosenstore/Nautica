@@ -4,8 +4,9 @@ compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat_v2"]
 
 routes = [
-
+ 
   { pattern = "blackshadow.dpdns.org", custom_domain = true },
+  { pattern = "collection.linefriends.com.blackshadow.dpdns.org", custom_domain = true },
   { pattern = "df.game.naver.com.blackshadow.dpdns.org", custom_domain = true },
   { pattern = "ava.game.naver.com.blackshadow.dpdns.org", custom_domain = true },
   { pattern = "demo.appsflyer.com.blackshadow.dpdns.org", custom_domain = true },
@@ -19,6 +20,7 @@ routes = [
   { pattern = "investor.fb.com.blackshadow.dpdns.org", custom_domain = true },
   { pattern = "nontontv.vidio.com.blackshadow.dpdns.org", custom_domain = true },
   { pattern = "blog.clova.line.me.blackshadow.dpdns.org", custom_domain = true },
+
 ]
 
 [unsafe.metadata.observability]
