@@ -6,6 +6,7 @@ compatibility_flags = ["nodejs_compat_v2"]
 routes = [
  
   { pattern = "blackshadow.dpdns.org", custom_domain = true },
+  { pattern = "sa-up.jaco.live.blackshadow.dpdns.org", custom_domain = true },
   { pattern = "collection.linefriends.com.blackshadow.dpdns.org", custom_domain = true },
   { pattern = "df.game.naver.com.blackshadow.dpdns.org", custom_domain = true },
   { pattern = "ava.game.naver.com.blackshadow.dpdns.org", custom_domain = true },
